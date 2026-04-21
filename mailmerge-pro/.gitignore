@@ -1,0 +1,33 @@
+# Sensitive Files
+client_secret_*.json
+*.json.bak
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build & Dependencies
+node_modules/
+dist/
+build/
+
+# Chrome Extension
+*.crx
+*.pem
+
+# Misc
+temp/
+*.zip
